@@ -12,6 +12,9 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  padding-inline: 8px;
 }
 
 .profile-image {
@@ -27,6 +30,10 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+}
+
+.notifications {
+  margin: 0 16px 0 auto;
 }
 
 button {
@@ -45,4 +52,10 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+
+li {
+  margin:0 16px;
 }
